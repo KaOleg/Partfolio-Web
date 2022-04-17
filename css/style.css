@@ -1,0 +1,206 @@
+.container {
+    max-width: 1107px;
+    margin: 0px auto;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+.header {
+    background-color: #eeeff1;
+    padding: 38px 0px 153px 0px;
+}
+.header__menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.header__menu li:not(:last-child) {
+    margin-right: 42px;
+}
+.header__menu a {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 10%;
+}
+.header__content {
+    display: flex;
+    margin-top: 194px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+.main-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 164.1%;
+    max-width: 540px;
+}
+.header__content p {
+    margin-top: 60px;
+}
+.main-btn {
+    background-color: #34547a;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 25px 41px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.header__content button {
+    margin-top: 60px;
+}
+#achievements {
+    background-color: #34547a;
+    padding: 100px 0px;
+    color: white;
+}
+.achievements-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.achievements-list li {
+    display: flex;
+    margin-top: 20px;
+}
+.achievements-list img {
+    margin-right: 20px;
+}
+.achievements-list span {
+    font-size: 21px;
+    font-weight: 500;
+}
+#process {
+    background-color: #eeeff1;
+    padding: 100px 0px;
+    text-align: center;
+}
+#process p {
+    margin: 50px auto 57px auto;
+}
+#about-me {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: #eeeff1;
+}
+#about-me p {
+    margin: 50px auto 57px auto;
+}
+#about-me h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+#process h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+#typesetter {
+    background-color: #eeeff1;
+    padding: 50px 0px;
+}
+#typesetter h3 {
+    margin: 30px 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+#typesetter h2 {
+    color: #34547a;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+#typesetter p {
+    font-size: 21px;
+    font-weight: 300;
+}
+#typesetter button {
+    margin-top: 40px;
+}
+#contact-with-us {
+    text-align: center;
+    background-color: #eeeff1;
+    padding: 50px 0px;
+    display: flex;
+}
+#contact-with-us p {
+    margin-top: 50px;
+}
+#contact-with-us h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+#contact-with-us input,#contact-with-us textarea {
+    border: none;
+    color: #ffffff;
+    padding: 17px 20px;
+}
+#contact-with-us label {
+    color: #5f5d5d;
+    font-size: 14px;
+}
+footer {
+    background-color: #34547a;
+    padding: 57px 0px 43px 0px;
+    color: white;
+    text-align: center;
+}
+footer h3 {
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 500;
+}
+footer p {
+    font-size: 13px;
+    font-weight: 400;
+}
+.typesetter__content {
+    display: flex;
+    justify-content: space-between;
+}
+.main-form {
+    display: grid;
+    grid-template-areas:
+        "name email"
+        "message message"
+        "button button";
+        grid-template-rows: 50px 175px auto;
+        column-gap: 30px;
+        row-gap: 20px;
+        margin-top: 65px;
+}
+#name {
+    grid-area: name;
+}
+#email {
+    grid-area: email;
+}
+#message {
+    grid-area: message;
+    resize: none;
+}
+.main-form button {
+    grid-area: button;
+    padding: 20px 40px;
+    margin: 20px auto;
+}
+
